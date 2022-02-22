@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+<title>Juego del Ahorcado</title>
+<link rel="stylesheet" href="Ahorcado Leo Style.css">
+   
+</head>
+
+<body>
+    <div style="text-align:center; margin: 50px 0px;">
+        <h1 class="titulo">Ahorcado</h1>
+    
+    <section>
+        <input type="text" id="letra" placeholder="Escribe la letra"> <input type="button" id="boton" value="INICIARJUEGO"><br>
+
+        <div id="frase">
+        
+        </div>
+        <div id="vida">
+            El número de vidas que quedan son: 4
+        </div>
+        <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra"><br>
+      <button onClick=agregar(palabras) class="btn" id="nuevapalabra"  > AGREGRAR PALABRA </button> 
+    </section>
+    <section>
+        <canvas id="lienzo">
+            Tu navegador no acepta canvas
+        </canvas>
+    </section>
+
+    <script type="text/javascript" src="Ahorcado Leo javascript.js"></script>
+    <script type="text/javascript" src="Ahorcado canvas Leo javascript.js"></script>
+</body>
+
+</html>
